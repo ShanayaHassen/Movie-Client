@@ -1,55 +1,54 @@
-# Movie Gold Frontend
+# 🎬 Movie Client
 
-React frontend for a movie review application. The app displays movies from a backend API, shows trailers, and lets users view and add reviews.
+A responsive React-based frontend application for browsing and managing movie information. This client communicates with the Movie API to provide an intuitive user interface for viewing, searching, and managing movies.
+
+## Features
+
+* Browse movies
+* View movie details
+* Add new movies
+* Update existing movies
+* Delete movies
+* Responsive user interface
+* REST API integration
 
 ## Tech Stack
 
-- React
-- React Router
-- Axios
-- React Bootstrap
-- Material UI carousel
-- Font Awesome
-- React Player
+* React
+* HTML
+* CSS
+* Bootstrap
 
 ## Getting Started
 
-Install dependencies:
+### Prerequisites
+
+* Node.js
+* npm
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/ShanayaHassen/Movie-Client.git
+cd Movie-Client
+```
+
+### Install Dependencies
 
 ```bash
 npm install
 ```
 
-Start the development server:
+### Start the Development Server
 
 ```bash
-npm start
+npm run dev
 ```
 
-The app runs at:
+The application will be available at:
 
-```txt
-http://localhost:3000
+```
+http://localhost:5173
 ```
 
-## Backend API
-
-This frontend expects the backend API to run at:
-
-```txt
-http://localhost:8080
-```
-
-The API base URL is configured in:
-
-```txt
-src/api/axiosConfig.js
-```
-
-## Build
-
-Create a production build:
-
-```bash
-npm run build
-```
+> Make sure the Movie API backend is running before using the application.
